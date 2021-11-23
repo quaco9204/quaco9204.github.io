@@ -105,25 +105,56 @@ section {
 .gnb>li:first-child{
     padding-left: 0;
 }
+
+/* visual */
 .visual{
     position:relative;
     display: block;
-    height: 96rem;
+    /* height: 97rem; */
+    height: 100vh;
+    
     background: url('../images/section01_bg.png') no-repeat center;
     background-size: cover;
 }
-.mini{
-    /* 수정, 해상도별 위치정보 필요( va 사용 권장) */
+
+.mini:nth-child(1){
     position: absolute;
-    right: 32rem;
-    top: 24rem;
+    left: 60vw;
+    top: 18vh;
+}
+.mini:nth-child(2){
+    position: absolute;
+    left: 44vw;
+    top: 28.4vh;
+}
+.mini:nth-child(3){
+    position: absolute;
+    left: 74vw;
+    top: 48vh;
+}
+.mini:nth-child(4){
+    position: absolute;
+    left: 18vw;
+    top: 34vh;
+}   
+.mini:nth-child(5){
+    position: absolute;
+    left: 52vw;
+    top: 66vh;
 }
 .mini-box{
     width: 18rem;
     height: 6.5rem;
     background-color: rgba(0,0,0,0.6);
-    margin: 0 auto;   
+    
 }
+.mini:nth-child(2) .mini-box{
+    width: 14rem;
+}
+.mini:nth-child(5) .mini-box{
+    width: 11.6rem;
+}
+
 .mini-text{    
     padding: 0.8rem;
 }
@@ -132,6 +163,7 @@ section {
     color: #fff;
     line-height: 2.5rem;
 }
+
 .mini-arrow{
     position: absolute;
     left: 50%;
@@ -141,13 +173,14 @@ section {
     color: rgba(0,0,0,0.6);
     margin: 0 auto;
 }
-/* .icon-down-dir{
-    color: #83838f;
-    transition: color 0.3s;
-} */
+
 .mini-me{
     position:relative;
     display:block;
     margin: 0 auto;
     margin-top: 2.5rem;
 }
+
+/* visual end */
+/* profile */
+/* profile end */

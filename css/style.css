@@ -180,7 +180,82 @@ section {
     margin: 0 auto;
     margin-top: 2.5rem;
 }
-
 /* visual end */
 /* profile */
+.profile{
+    position: relative;
+    display: block;
+}
+.profile .container{
+    width: 104rem;
+    
+}
+
+.profile-tit{
+    position: relative;
+    display: block;
+    margin-top: 4rem;
+    height: 21rem;
+}
+
+.p-tit-img{
+    position: absolute;
+    top: 0;
+    left:0;
+    display:block;
+    width: 8.3rem;
+    height: 8.3rem;
+    
+    background: url('../images/section02_rec.png') no-repeat center;
+
+
+}
+.profile-tit>h2{
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 700;
+    padding-top: 3.3rem;
+    margin-left: 4.3rem;
+    margin-bottom: 4.0rem;
+    line-height: 5rem;
+
+}
+.p-tit-img::after{
+    content:'';
+    position:relative;
+    display:block;
+    width: 25.2rem;
+    height: 1rem;
+    margin-top: calc(8.3rem + 1.5rem);
+
+    background: url('../images/section02_yellowbar.png') no-repeat left;
+    background-size: cover;
+}
+.profile-tit>p{
+    position: relative;
+    display: block;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.profile-box-left{
+    position:relative;
+    display: block;
+    float:left;
+}
+
+.profile-box-right{
+    position:relative;
+    display: block;
+}
+
+.profile-skill{
+    position:relative;
+    display: block;
+}
+
+
+
 /* profile end */

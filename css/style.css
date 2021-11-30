@@ -44,7 +44,7 @@ section {
     position: relative;
     display: block;
     width: 120rem;
-    height: 10rem;
+    /* height: 10rem; */
     margin: 0 auto;
 }
 
@@ -112,6 +112,8 @@ section {
     display: block;
     /* height: 97rem; */
     height: 100vh;
+    /* height: auto; */
+    /* width: 100vw; */
     
     background: url('../images/section01_bg.png') no-repeat center;
     background-size: cover;
@@ -190,6 +192,12 @@ section {
     width: 104rem;
     
 }
+.profile-box{
+    position: relative;
+    display: block;
+    width: 65rem;
+    height: 48rem;
+}
 
 .profile-tit{
     position: relative;
@@ -245,10 +253,54 @@ section {
     display: block;
     float:left;
 }
-
 .profile-box-right{
     position:relative;
     display: block;
+}
+
+.profile-box-left p{
+    position:relative;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+    margin-right: 5rem;
+}
+.profile-box-right p{
+    position:relative;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+}
+
+.profile-box-left span{
+    position: absolute;
+    display: block;
+    color: #cda762;
+    font-weight: bold;
+
+    left: 0; 
+}
+.profile-box-right span{
+    position: absolute;
+    display: block;
+    color: #cda762;
+    font-weight: bold;
+
+    left: 38rem;    
+}
+
+.profile-box-bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 182px;
+    height: 82px;
+    background: url('../images/section02_rec2.png') no-repeat left;
+    background-size: cover;
 }
 
 .profile-skill{

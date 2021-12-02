@@ -18,7 +18,7 @@
     <meta name="Yeti" content="All" />
     <meta name="googlebot" content="All" /> -->
     <!-- 썸네일 이미지 -->
-    <meta property="op:image" content="이미지 주소" />
+    <meta property="op:image" content="images/thumbnail.png" />
     <meta property="op:image:width" content="400" />
     <meta property="op:image:height" content="300" />
     <meta property="op:title" content="김건우 포트폴리오" />
@@ -31,9 +31,11 @@
     <script src="js/respond.min.js"></script>
     <script src="js/swiper/swiper.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/progressbar/progressbar.js"></script>
     <link rel="stylesheet" href="css/fontello/css/fontello.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -44,7 +46,7 @@
             <div class="container clearfix">
                 <a href="#" class="logo" alt="logo"></a>
 
-                <ul class="gnb">
+                <ul class="gnb clearfix">
                     <li><a href="#profile" class="move">Profile</a></li>
                     <li><a href="#publishing" class="move">Publishing</a></li>
                     <li><a href="#frontend" class="move">Front-end</a></li>
@@ -120,43 +122,113 @@
         <!-- profile -->
         <section class="profile" id="profile">
             <div class="container clearfix">
-                <div class="profile-box clearfix">
-                    <div class="profile-tit">
-                        <div class="p-tit-img"></div>
-                        <h2>Profile</h2>
-                        <p>함께하는 기쁨을 아는</p>
-                        <p>새로움에 도전하는</p>
+                <div class="profile-container-box">
+                    <div class="profile-box clearfix">
+                        <div class="profile-tit">
+                            <div class="profile-tit-img"></div>
+                            <h2>Profile</h2>
+                            <p>함께하는 기쁨을 아는</p>
+                            <p>새로움에 도전하는</p>
+                        </div>
+                        <div class="profile-box-left">
+                            <p><span>Name</span>김건우(Kim Gunwoo)</p>
+                            <p><span>Birth</span>92.04.02(Kim Gunwoo)</p>
+                            <p><span>E-mail</span>quaco111@gmail.com(Kim Gunwoo)</p>
+                            <p><span>Study</span>PWA 제작 웹앱 프론트엔드 개발 양성과정 A</p>
+                        </div>
+                        <div class="profile-box-right">
+                            <p><span>Major</span>사회복지</p>
+                            <p><span>Sub</span>컴퓨터학부</p>
+                            <p><span>Licence</span>사회복지 (2급)</p>
+                            <p>운전면허 (1종 보통)</p>
+                        </div>
+                        <div class="profile-box-bottom"></div>
                     </div>
-                    <div class="profile-box-left">
-                        <p><span>Name</span>김건우(Kim Gunwoo)</p>
-                        <p><span>Birth</span>92.04.02(Kim Gunwoo)</p>
-                        <p><span>E-mail</span>quaco111@gmail.com(Kim Gunwoo)</p>
-                        <p><span>Study</span>PWA 제작 웹앱 프론트엔드 개발 양성과정 A</p>
+                    <div class="profile-skill">
+                        <h3>Skills</h3>
+                        <ul class="clearfix">
+                            <li>
+                                <div class="skill-cont skill-cont-css">
+                                    <div id="skill_ps"></div>
+                                </div>
+                                <div class="skill-title">PhotoShop</div>
+                            </li>
+                            <li>
+                                <div class="skill-cont">
+                                    <div id="skill_ps2"></div>
+                                </div>
+                                <div class="skill-title">PhotoShop</div>
+                            </li>
+                            <li>
+                                <div class="skill-cont">
+                                    <div id="skill_ps3"></div>
+                                </div>
+                                <div class="skill-title">PhotoShop</div>
+                            </li>
+                            <li>
+                                <div class="skill-cont">
+                                    <div id="skill_ps4"></div>
+                                </div>
+                                <div class="skill-title">PhotoShop</div>
+                            </li>
+                            <li>
+                                <div class="skill-cont">
+                                    <div id="skill_ps5"></div>
+                                </div>
+                                <div class="skill-title">PhotoShop</div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="profile-box-right">
-                        <p><span>Major</span>사회복지</p>
-                        <p><span>Sub</span>컴퓨터학부</p>
-                        <p><span>Licence</span>사회복지 (2급)</p>
-                        <p>운전면허 (1종 보통)</p>
-                    </div>
-                    <div class="profile-box-bottom"></div>
-                </div>
-                <div class="profile-skill">
-                    <h3>Skills</h3>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
                 </div>
                 <div class="profile-img">
+                    <span>프로필 이미지</span>
                     <img src="" alt="">
                 </div>
 
             </div>
+            <div class="container profile-page2">
+
+                <div class="profile-page2-box01 clearfix">
+                    <div class="profile-p2-box01-img"></div>
+                    <div class="profile-p2-box01-text">
+                        <span>Lorem, ipsum dolor.</span>
+                        <div class="line-img"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, at.</p>
+                    </div>
+                </div>
+
+                <div class="profile-page2-box02 clearfix">
+                    <div class="profile-p2-box02-img"></div>
+                    <div class="profile-p2-box01-text">
+                        <span>Lorem, ipsum dolor.</span>
+                        <div class="line-img"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="profile-page2-box03 clearfix">
+                    <div class="profile-p2-box03-img"></div>
+                    <div class="profile-p2-box03-text">
+                        <div class="left-top-shape"></div>
+                        <div class="profile-p2-box03-text-cont">
+                            <span>Lorem, ipsum dolor.</span><br>
+                            <span>Lorem, ipsum dolor.</span>
+                        </div>                        
+                        <div class="right-bottom-shape"></  div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+
         </section>
+
+
+
         <!-- profile end -->
+
     </div>
 </body>
 

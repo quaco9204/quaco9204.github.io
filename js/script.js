@@ -57,4 +57,23 @@ window.onload = function () {
     });
     bar_ps5.animate(0.5);  // Number from 0.0 to 1.0
 
+
+    new Swiper('.sw-main', {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        allowTouchMove: false,
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true,
+        },
+        speed: 1000,
+        navigation: {
+            prevEl: '.sw-main-prev',
+            nextEl: '.sw-main-next',
+        },
+    });
+
 }

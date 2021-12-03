@@ -42,9 +42,9 @@ section {
 /* common */
 .container {
     position: relative;
-    max-width: 120rem;
-    width: 100%;
-    /* height: 10rem; */
+    display: block;
+    width: 120rem;
+    /* height: 100rem; */
     margin: 0 auto;
 }
 
@@ -56,11 +56,15 @@ section {
     clear: both;
 }
 
+
 /* common-end */
+
 .wrap {
     position: relative;
     display: block;
 }
+
+/* header */
 
 .header {
     position: fixed;
@@ -72,15 +76,19 @@ section {
     z-index: 100;
 }
 
+.header .container {
+    height: 100%;
+}
+
 .logo {
     position: absolute;
-    display: block;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
     width: 7.8rem;
     height: 7.8rem;
     background: url('../images/logo.png') no-repeat center;
+    
 }
 
 .header {
@@ -92,12 +100,10 @@ section {
     display: block;
     overflow: hidden;
     margin-left: 28rem;
-    margin-right: 18rem;
 }
 
 .gnb>li {
     float: left;
-    padding-left: 4.5rem;
 }
 
 .gnb>li>a {
@@ -105,12 +111,14 @@ section {
     font-size: 1.6rem;
     text-transform: uppercase;
     line-height: 10rem;
+    padding: 0 2rem;
 }
 
 .gnb>li:first-child {
     padding-left: 0;
 }
 
+/* header-end */
 /* visual */
 .visual {
     position: relative;
@@ -119,7 +127,7 @@ section {
     height: 100vh;
     /* height: auto; */
     /* width: 100vw; */
-
+    
     background: url('../images/section01_bg.png') no-repeat center;
     background-size: cover;
 }
@@ -255,7 +263,7 @@ section {
 
 }
 
-.p-tit-img::after {
+.profile-tit-img::after {
     content: '';
     position: relative;
     display: block;
@@ -424,8 +432,10 @@ section {
     position: relative;
     display: block;
     /* padding: 20rem 0; */
-    height: 400rem;
-    /* height: 92rem; */
+    height: 92rem;
+    /* height: 120rem; */   
+    margin-bottom: 20rem;
+    
 }
 .profile-page2-box01{
     margin-top: 20rem;
@@ -437,6 +447,9 @@ section {
     float: left;    
 }
 .profile-p2-box01-text{
+    position: relative;
+    display: block;
+
     float: left;
     margin-top: 4rem;
     margin-left: 3.2rem;
@@ -466,6 +479,7 @@ section {
     left: 21.5rem;
     top: 25.5rem;
     display: block;
+    height: 25rem;
 }
 .profile-p2-box02-img{
     width: 32rem;
@@ -479,8 +493,12 @@ section {
     left: 0;
     top: 61.5rem;
     display: block;
+    height: 30.5rem;
 }
 .profile-p2-box03-img{
+    position: relative;
+    display: block;
+
     width: 53.5rem;
     height: 30.5rem;
     background-color: #555;
@@ -524,3 +542,71 @@ section {
 }
 
 /* profile end */
+/* publishing */
+
+.publishing .container2{
+    position: relative;
+    display: block;
+    height: 100rem;
+    margin: 0 auto;
+
+    height: 100%;
+
+    background: #e8db75;
+}
+
+
+
+.publish-tit {
+    position: relative;
+    display: block;
+    height: 15rem;
+    margin-top: 4rem;
+
+    /* background-color: red; */
+}
+
+.publish-tit-img {
+    position: absolute;
+    top: 4rem;
+    right: 46.5rem;
+    display: block;
+    width: 8.3rem;
+    height: 8.3rem;
+
+    background: url('../images/section03_rec.png') no-repeat center;
+
+
+}
+
+.publish-tit>h2 {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 700;
+    padding-top: 7.3rem;
+    padding-right: 19.5rem;
+    line-height: 5rem;
+    
+    text-align: right;
+}
+
+.publish-tit-img::after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 25.2rem;
+    height: 1rem;
+    margin-top: calc(8.3rem + 1.5rem);
+
+    background: url('../images/section03_bar.png') no-repeat left;
+    background-size: cover;
+}
+
+
+/* 972height */
+
+/* publishing end */
+
+

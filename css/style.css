@@ -132,31 +132,31 @@ section {
     background-size: cover;
 }
 
-.mini:nth-child(1) {
+.mini-01 {
     position: absolute;
     left: 60vw;
     top: 18vh;
 }
 
-.mini:nth-child(2) {
+.mini-02 {
     position: absolute;
     left: 44vw;
     top: 28.4vh;
 }
 
-.mini:nth-child(3) {
+.mini-03 {
     position: absolute;
     left: 74vw;
     top: 48vh;
 }
 
-.mini:nth-child(4) {
+.mini-04 {
     position: absolute;
     left: 18vw;
     top: 34vh;
 }
 
-.mini:nth-child(5) {
+.mini-05 {
     position: absolute;
     left: 52vw;
     top: 66vh;
@@ -167,6 +167,8 @@ section {
     height: 6.5rem;
     background-color: rgba(0, 0, 0, 0.6);
 
+    /* animation control */
+    opacity: 0;
 }
 
 .mini:nth-child(2) .mini-box {

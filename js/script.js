@@ -75,7 +75,7 @@ window.onload = function () {
         slidesPerView: 3,        
 
         autoplay: {
-            delay: 3000,
+            delay: 5000,
             disableOnInteraction: false,
         },
         

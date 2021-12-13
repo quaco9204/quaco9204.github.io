@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+
+});
+
+window.onload = function () {
+
+    
      // section_visual animation
 let mini_01 = $('.mini-01');
 let mini_box_01 = $('.mini-01 .mini-box-01');
@@ -41,9 +47,6 @@ setTimeout(
     }
 ,3400);
 
-});
-
-window.onload = function () {
 
     var bar_ps = new ProgressBar.Circle(skill_ps, {
         strokeWidth: 6,

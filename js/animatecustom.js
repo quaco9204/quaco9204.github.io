@@ -1,4 +1,10 @@
 $(document).ready(function () {
+    
+    
+});
+
+window.onload = function () {
+
     // section_visual animation
     let mini_01 = $('.mini-01');
     let mini_box_01 = $('.mini-01 .mini-box-01');
@@ -39,5 +45,5 @@ $(document).ready(function () {
             mini_box_05.css({opacity: 1})
         }
     ,3400);
-    
-});
+
+}

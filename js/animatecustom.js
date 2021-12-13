@@ -10,8 +10,6 @@ $(document).ready(function () {
     let mini_box_04 = $('.mini-04 .mini-box-04');
     let mini_05 = $('.mini-05');
     let mini_box_05 = $('.mini-05 .mini-box-05');
-    // $('#pin01').show().animate({ top: 305 }, {duration: 1000, easing: 'easeOutBounce'});
-    //$('#pin01').effect("bounce", { direction:'down', times:5 }, 300);
     
     mini_01.effect( "bounce", {times:1}, 300,'ease out bounce');
     mini_box_01.css({opacity: 1})

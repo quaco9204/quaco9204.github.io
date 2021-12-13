@@ -96,5 +96,23 @@ window.onload = function () {
         //     nextEl: '.sw-main-next',
         // },
     });
+
+
+    //위치 확인 - 메뉴 다크모드
+    let sc_y = $(window).scrollTop();
+    console.log(sc_y);
+
+
+    let pos_check = false;
+
+    if(sc_y>=930){
+        pos_check = true;
+
+    }else if(sc_y >= 5090){
+        pos_check = false;
+    }
+
+    console.log(pos_check);
+
     
 }

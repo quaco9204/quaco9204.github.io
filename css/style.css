@@ -169,13 +169,15 @@ section {
 
     /* animation control */
     opacity: 0;
+    transition: opacity 0.5s;
 }
 
-.mini:nth-child(2) .mini-box {
+.mini-box-02 {
     width: 14rem;
+    opacity: 0;
 }
 
-.mini:nth-child(5) .mini-box {
+.mini-box-05 {
     width: 11.6rem;
 }
 
